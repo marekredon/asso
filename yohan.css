@@ -1,0 +1,78 @@
+/*ctrl d => dupliquer le curseur une fois un élément séléctionné */ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*select this style (pour chaque ligne), clique sur import, puis copier/coller 
+tout ce qui se trouve entre les balises style. Pis ligne de dessous à copier coller dans le body)*/
+* {
+  box-sizing : border-box;/*le child est contenu dans le parent, border-box inclus*/
+}
+
+body {
+  background-color: rgb(20,20,20);
+  user-select: none; /*empêche la séléction des textes par un utilisateur*/
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  /* display : flex; */
+  height : 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  /* overflow: hidden; le texte ne sort pas de la div qui le contient */
+  }
+
+.texte{
+  margin: 0px 15% 0% 15%;
+}
+
+.container{
+width: 80%;
+display: flex;
+align-items: center;
+margin-left: 10%;
+}
+
+.panel{
+position: relative;
+height: 80vh;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+flex-grow: 1; /*poids de chacun des éléments*/
+/* background-color: aqua; */
+margin: 10px;
+border-radius: 50px;
+cursor: pointer;
+transition: flex 1s ease-in-out; /*on met ici pour que les panels en classe "non active" soit aussi actifs*/
+}
+
+
+.panel h3 { /*l'espace indique qu'on select tous les enfants h3 de .panel
+  on peut le voie en laissant le curseur sur .panel (ici ligne 43)*/
+  opacity: 0;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 36px;
+  margin: 0;
+}
+
+.panel.active { /* ne pas mettre d'espace entre panel et .active, sinon ça
+   veut dire qu'on selectionne tous les enfants active de la classe panel*/
+  flex-grow: 5; /*l'élément seléctionné (.panel.active) a un poids de 5 alors que les autres sont à 1*/
+}
+
+.panel.active h3 { /*on voit le titre car on est sur le panel actif*/
+  opacity: 1;
+  transition: opacity 2s ease-in-out 0.1s; /* délai affichage de h3 (on joue sur opacity*/
+}
+
+
+@media screen and (max-width : 480px) {
+/* content: "►"; puce : http://www.letoileauxsecrets.fr/ascii/Altcode.html */
+  .container {
+    width: 100vw;
+  }
+  .panel:nth-of-type(4),
+  .panel:nth-of-type(5) {
+    display: none;
+  }
+}
