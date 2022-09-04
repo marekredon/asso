@@ -15,3 +15,9 @@ body {
   a {
     text-decoration: none;
   }
+
+  .retour {
+    position: absolute;
+    left: 50%;
+    padding-bottom: 3%;
+  }
