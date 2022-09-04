@@ -56,7 +56,7 @@ transition: flex 1s ease-in-out; /*on met ici pour que les panels en classe "non
 }
 
 .panel.active { /* ne pas mettre d'espace entre panel et .active, sinon ça
-   veut dire qu'on selectionne tous les enfants active de la classe panel*/
+  veut dire qu'on selectionne tous les enfants active de la classe panel*/
   flex-grow: 5; /*l'élément seléctionné (.panel.active) a un poids de 5 alors que les autres sont à 1*/
 }
 
