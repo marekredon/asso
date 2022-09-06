@@ -1,11 +1,11 @@
 body {
   background-color: rgb(20,20,20);
   margin: 0px;
-  }
+}
   
 
   #menu {
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     align-items: center;
   }
@@ -131,10 +131,6 @@ body {
     }
     .menu-item {
       font-size: clamp(2rem, 3vw, 8rem);
-    }
-
-    #menu-background-image {
-
     }
 
 
