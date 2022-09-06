@@ -65,6 +65,12 @@ transition: flex 1s ease-in-out; /*on met ici pour que les panels en classe "non
   transition: opacity 2s ease-in-out 0.1s; /* délai affichage de h3 (on joue sur opacity*/
 }
 
+.retour {
+  position: absolute;
+  left: 50%;
+  padding-bottom: 3%;
+}
+
 
 @media screen and (max-width : 480px) {
 /* content: "►"; puce : http://www.letoileauxsecrets.fr/ascii/Altcode.html */
