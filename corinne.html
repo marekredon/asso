@@ -10,10 +10,24 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" id="switcher-id">
   <link rel="icon" type="image/jpg" href="lion.jpg" />
 </head>
 
 <body>
+
+  <header>
+    <p>4 switchs à tester pour votre confort visuel</p>
+    <div class="theme-switches">
+        <div data-theme="light" class="btnSwitch" id="switch-1"></div>
+        <div data-theme="sky" class="btnSwitch" id="switch-2"></div>
+        <div data-theme="purple" class="btnSwitch" id="switch-3"></div>
+        <div data-theme="dark" class="btnSwitch" id="switch-4"></div>
+    </div>
+</header>
+
+<div class="container">
+  <div class="box">
   <h2>Le Massage Sonore</h2><br>
   <p>
     <b>Qu'est-ce que c'est ?</b><br><br>
@@ -47,9 +61,12 @@
     complète coûte 40€ ou un forfait de 5 séances à 220€ (valable 1 an) sur 
     rendez-vous le lundi à partir de 17h30, et le samedi.<br><br>
     Corinne <i class="fa-solid fa-phone"></i><b> 06 73 31 59 27</b></p>
-
+  </div>
+</div>
     <div class="retour">
       <a href="index.html" style="color:#d400ff"><i class="fas fa-home fa-2x"></i></a> 
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

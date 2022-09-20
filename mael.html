@@ -10,10 +10,24 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" id="switcher-id">
   <link rel="icon" type="image/jpg" href="lion.jpg" />
 </head>
 
 <body>
+
+  <header>
+    <p>4 switchs à tester pour votre confort visuel</p>
+    <div class="theme-switches">
+        <div data-theme="light" class="btnSwitch" id="switch-1"></div>
+        <div data-theme="sky" class="btnSwitch" id="switch-2"></div>
+        <div data-theme="purple" class="btnSwitch" id="switch-3"></div>
+        <div data-theme="dark" class="btnSwitch" id="switch-4"></div>
+    </div>
+</header>
+
+<div class="container">
+  <div class="box">
   <p>
     <b>Intervenante musique et philo :</b>
     <b><a href ="https://www.letempoducoeur.fr" target="_blank" style="color:#d400ff">Mael Le Guennec</a></b>
@@ -55,8 +69,8 @@
       <li>Pas de séances pendant les vacances scolaires</li>
       <li>Lieu : à définir</li>
     </ul>
-    <br><br>
-
+    <br><br></p>
+    <p>
     <b>Ateliers musique adultes</b><br>
     Se rencontrer pour communiquer par le son et se détendre, prendre confiance en 
     soi, développer ses capacités, se relier aux autres. Nul besoin d’avoir « l’oreille 
@@ -76,7 +90,9 @@
       <li>Lieu : à définir</li>
     </ul>
     <br><br>
+  </p>
 
+  <p>
     <b>Ateliers philo avec les enfants et les adolescents</b><br>
     Sur demande, nous pouvons mettre en place des ateliers philo avec les enfants et/ou les 
     adolescents de manière régulière ou ponctuelle.
@@ -84,10 +100,14 @@
     de réfléchir ensemble à des questions philosophiques telles que l’amitié, le courage, 
     la justice...  
   </p><br>
+</div>
+</div>
   
   <div class="retour">
     <a href="index.html" style="color:#d400ff"><i class="fas fa-home fa-2x"></i></a> 
   </div>
+
+  <script src="script.js"></script>
 
 </body>
 </html>

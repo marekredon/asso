@@ -1,0 +1,20 @@
+:root {
+  --back-color: rgb(255, 255, 255);
+  --primary-color: #ffffff;
+  --header-back: #ffffff;
+  --header-text: rgb(0, 0, 0);
+}
+
+body {
+  background-color: var(--back-color);
+  color: var(--primary-color);
+}
+
+h3, p, ul, h2, h1 {
+  color: rgb(0, 0, 0);
+}
+
+header {
+  background-color: var(--header-back);
+  color: var(--header-text);
+}
