@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(20,20,20);
+  background-color: rgb(237,195,9);
   margin: 0px;
 }
   
@@ -26,7 +26,7 @@ body {
   }
 
   .menu-item1 {
-    color: white;
+    color: rgb(173, 96, 192);
     font-size: clamp(1.5rem, 1vw, 4rem);
     font-family: "Ibarra Real Nova", serif;
     text-align: center;
@@ -34,7 +34,7 @@ body {
   }
   
   .menu-item {
-    color: white;
+    color: rgb(134, 34, 160);
     font-size: clamp(3rem, 3vw, 8rem);
     font-family: "Ibarra Real Nova", serif;
     display: block;
@@ -101,7 +101,7 @@ body {
   #menu-background-image {
     height: 100%;
     width: 100%;
-    background-image: url("https://images.unsplash.com/photo-1637154757533-0b14be6cfeef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cmVsaWFuY2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-image: url("../images/site1.jpg");
     position: absolute;
     left: 0px;
     top: 0px;
