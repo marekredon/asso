@@ -10,7 +10,7 @@ body {
   background-color: rgb(20,20,20);
   user-select: none; /*empêche la séléction des textes par un utilisateur*/
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Bungee Spice', cursive;
   /* display : flex; */
   height : 100vh;
   justify-content: center;
