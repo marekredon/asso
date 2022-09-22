@@ -1,8 +1,8 @@
 :root {
-  --back-color: #c3dafe;
-  --primary-color: #3c366b;
-  --header-back: #5f718d;
-  --header-text: #eee;
+  --back-color: rgb(255, 224, 88);
+  --primary-color: #ffffff;
+  --header-back: (255, 224, 88);
+  --header-text: rgb(255, 255, 255);
 }
 
 body {
@@ -11,7 +11,7 @@ body {
 }
 
 h3, p, ul, h2, h1 {
-  color: rgb(12, 3, 255);
+  color: rgb(134, 34, 160);
 }
 
 header {
