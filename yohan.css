@@ -30,6 +30,8 @@ body {
   margin: 0px 15% 0% 15%;
 }
 
+
+
 .container{
 width: 80%;
 display: flex;
@@ -187,12 +189,21 @@ body {
   }
 
 
+  @media screen and (max-width : 2500px) {
+    .panel h3 {
+      color: #ffffff;
+    }
+  }
 @media screen and (max-width : 1400px) {
   /* .container {
     width: 50vw;
   } */
   .panel{
     height: 60vh;
+  }
+  .panel h3 {
+    color: #ffffff;
+    font-size: 18px;
   }
 }
 

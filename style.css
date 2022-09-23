@@ -2,7 +2,6 @@ body {
   background-color: rgb(237,195,9);
   margin: 0px;
 }
-  
 
   #menu {
     /* height: 100vh; */
@@ -150,9 +149,6 @@ body {
     a {
       margin-left: clamp(5rem, 5vw, 48rem);
     }
-  
-
-
   }
 
   @media all and (max-width: 400px) {
@@ -162,8 +158,5 @@ body {
     a {
       margin-left: clamp(2rem, 5vw, 48rem);
     }
-
-
-
   }
 
