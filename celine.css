@@ -125,7 +125,13 @@ body {
   #switch-4 {
     background-color: var(--dark);
   }
-  
+
+  .avatar {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
 
   @media screen and (max-width: 860px) {
     .heade a {
