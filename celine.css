@@ -132,6 +132,34 @@ body {
     height: 100px;
     border-radius: 50%;
   }
+  .avatar1 {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 30%;
+    border-color: #000000;
+    border-style:solid;
+    border-width: 3px;
+  }
+  .avatar2 {
+    vertical-align: middle;
+    width: 90px;
+    height: 100px;
+    border-radius: 50%;
+    border-color: #000000;
+    border-style:solid;
+    border-width: 5px;
+  }
+  .avatar3 {
+    vertical-align: middle;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border-color: #000000;
+    border-style:solid;
+    border-width: 3px;
+  }
+
 
   @media screen and (max-width: 860px) {
     .heade a {
